@@ -89,7 +89,7 @@ main{
 }
 
 #us{
-    border-radius: 3px;
+    border-radius: 0 0 3px 3px;
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.096);
     padding: 1em;
     color: white;
