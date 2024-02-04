@@ -91,9 +91,9 @@ main{
 }
 
 #us{
+    height: 187px;
     border-radius: 0 0 3px 3px;
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.096);
-    height: 187px;
     padding: 1em;
     color: white;
     background-color: #66C6C8;
