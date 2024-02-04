@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar{
+    width: 0;
+    height: 0;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background: white url(../imagens/wallpaper006.jpg) no-repeat center/cover fixed;
+    
+}
+
+main{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    height: 100%;
+    width: 100%;
+    border-radius: 3px;
+    background-color: white;
+}
+
+#introduction{
+    color: rgba(0, 0, 0, 0.575);
+    padding: 0.7em;
+}
+
+#introduction h1{
+    color: aqua;
+    padding: 0.7em 0
+}
+
+.destaque{
+    color: greenyellow;
+    padding-bottom: 0.5em;
+}
+
+.normal{
+    color: rgba(0, 0, 0, 0.575);
+    line-height: 1.5em;
+}
+
+#product{
+    padding: 0.7em;
+    background-color: #2CB3AF;
+    color: white;
+}
+
+#product h2{
+    padding: 0.5em 0;
+}
+
+#product p{
+    padding: 0.5em 0;
+}
+
+#product :nth-child(2){
+    color: rgba(0, 0, 0, 0.575);
+}
+
+#product a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    font-size: 1.3em;
+    margin: 5px 0;
+    padding: 0.8em;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.397);
+    background-color: greenyellow;
+    color: white;
+}
+
+#us{
+    background-color: #4BBCBF;
+    color: white;
+    padding: 0.7em;
+    border-radius: 0 0 3px 3px;
+}
+
+#us h2{
+    padding: 5px 0;
+}
+
+#us p{
+    line-height: 1.5em;
+}
+
+
+

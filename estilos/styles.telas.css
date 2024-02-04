@@ -1,0 +1,7 @@
+@media screen and (min-width:375px) {
+    main{
+        top: 45%;
+        height: 560px;
+        width: 315px;
+    }
+}
