@@ -33,7 +33,7 @@ main{
     font-size: 1em;
     background-color: rgb(255, 254, 254);
     border-radius: 3px;
-    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.425);
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.178);
     transform: translate(-50%,-50%);
 }
 
@@ -89,6 +89,7 @@ main{
 
 #us{
     border-radius: 3px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.096);
     padding: 1em;
     color: white;
     background-color: #66C6C8;
@@ -99,7 +100,7 @@ main{
 }
 
 #us p{
-    font-size: 14px;
+    font-size: 15px;
     line-height: 1.7em;
 }
 
