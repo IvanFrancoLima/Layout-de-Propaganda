@@ -1,2 +1,75 @@
-@media screen and (min-width:375px) {
+@media screen and (min-width:768px) {
+    #tela_login{
+        max-width: 1000px;
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #introduction{
+        padding: 2.5em;
+        height: 80%;
+    }
+
+    #introduction h1{
+        font-size: 1em;
+    }
+
+    #introduction p{
+        text-align: justify;
+        font-size: 1em;
+    }
+
+    div{
+        display: flex;
+        height: 100%;
+    }
+
+    #product{
+        flex: 100%;
+        height: 100%;
+        padding: 2em;
+    }
+
+    #product h1{
+        font-size: 1.2em;
+    }
+
+    #product a{
+        margin-top: 1em;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.658);
+        font-size: 1.5em;
+    }
+
+    #us{
+        flex: 100%;
+        height: 100%;
+        padding: 2em;
+        font-size: 1em;
+    }
+
+    #us p{
+        font-size: 0.8em;
+    }
+}
+
+@media screen and (min-width:900px){
+    #introduction{
+        padding: 2em;
+        height: 80%;
+    }
+
+    #introduction h1{
+        font-size: 1.5em;
+    }
+
+    #introduction p{
+        text-align: justify;
+        font-size: 1.2em;
+        padding: 10px 0;
+    }
+
+    #us p{
+        font-size: 0.9em;
+    }
 }
