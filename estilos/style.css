@@ -14,11 +14,12 @@
 body{
     height: 100vh;
     width: 100vw;
-    background-image: linear-gradient(white,blue,darkblue);
+    background-color: #66c6c879;
     
 }
 
 main{
+    position: relative;
     height: 100vh;
     width: 100vw;
 }
@@ -28,11 +29,79 @@ main{
     top: 50%;
     left: 50%;
     height: 560px;
-    width: 315px;
+    width: 320px;
+    font-size: 1em;
     background-color: rgb(255, 254, 254);
     border-radius: 3px;
-    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.637);
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.425);
     transform: translate(-50%,-50%);
+    overflow-y: hidden;
+}
+
+#introduction{
+    padding: 1em;
+}
+
+#introduction h1{
+    padding: 0.5em 0;
+    color: aquamarine;
+}
+
+#introduction :nth-child(2){
+    color: greenyellow;
+}
+
+#introduction p{
+    color: rgba(0, 0, 0, 0.466);
+    line-height: 1.5em;
+}
+
+#product{
+    color: white;
+    background-color: #4BBEBB;
+    padding: 1em;
+}
+
+#product h1{
+    padding-bottom: 10px;
+}
+
+#product :nth-child(2){
+    padding-bottom: 10px;
+    color: rgba(255, 255, 255, 0.692);
+}
+
+#product strong#price{
+    font-size: 2em;
+    color: white;
+}
+
+#product a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.308);
+    margin-top: 0.5em;
+    padding: 1em 0;
+    background-color: greenyellow;
+}
+
+#us{
+    height: 185px;
+    padding: 1em;
+    color: white;
+    background-color: #66C6C8;
+}
+
+#us h1{
+    padding-bottom: 0.2em;
+}
+
+#us p{
+    font-size: 0.9em;
+    line-height: 1.5em;
 }
 
 
