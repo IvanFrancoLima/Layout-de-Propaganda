@@ -53,6 +53,7 @@ main{
 
 #introduction :nth-child(3){
     line-height: 1.4em;
+    text-align: justify;
 }
 
 #product{
