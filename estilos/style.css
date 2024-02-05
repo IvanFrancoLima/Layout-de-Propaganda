@@ -4,6 +4,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 ::-webkit-scrollbar{
@@ -19,92 +20,90 @@ body{
 }
 
 main{
-    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 100vh;
     width: 100vw;
 }
 
 #tela_login{
-    position: absolute;
-    top: 50%;
-    left: 50%;
     height: 561px;
-    width: 320px;
-    font-size: 1em;
-    background-color: rgb(255, 254, 254);
-    border-radius: 3px;
-    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.178);
-    transform: translate(-50%,-50%);
+    width: 280px;
+    border-radius: 5px;
+    background-color: white;
 }
 
 #introduction{
     height: 187px;
-    padding: 1em;
+    padding: 5px;
+    color: rgba(0, 0, 0, 0.589);
+    background-color: azure;
 }
 
 #introduction h1{
-    padding: 0.5em 0;
-    color: aquamarine;
+    padding: 5px 0;
+    color: aqua;
 }
 
 #introduction :nth-child(2){
+    padding-bottom: 5px;
     color: greenyellow;
 }
 
-#introduction p{
-    color: rgba(0, 0, 0, 0.466);
-    line-height: 1.5em;
+#introduction :nth-child(3){
+    line-height: 1.4em;
 }
 
 #product{
     height: 187px;
+    width: 100%;
+    height: 187px;
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
     color: white;
-    background-color: #4BBEBB;
-    padding: 1em;
+    background-color: #4BBEBB;    
 }
 
 #product h1{
-    padding-bottom: 10px;
+    padding: 5px 0 10px 0;
 }
 
 #product :nth-child(2){
-    padding-bottom: 10px;
-    color: rgba(255, 255, 255, 0.692);
+    color: rgba(255, 255, 255, 0.432);
 }
 
-#product strong#price{
-    font-size: 2em;
+#product p{
+    padding-bottom: 1em;
+}
+
+#price{
     color: white;
+    font-size: 1.5em;
 }
 
 #product a{
-    display: block;
-    text-align: center;
-    text-decoration: none;
-    color: white;
+    align-self: center;
+    padding: 1em;
     border-radius: 5px;
-    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.308);
-    margin-top: 0.5em;
-    padding: 1em 0;
+    width: 80%;
+    text-decoration: none;
+    text-align: center;
     background-color: greenyellow;
+    color: white;
 }
 
 #us{
-    height: 187px;
-    border-radius: 0 0 3px 3px;
-    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.096);
-    padding: 1em;
     color: white;
+    height: 187px;
+    padding: 5px;
     background-color: #66C6C8;
 }
 
-#us h1{
-    padding-bottom: 0.2em;
-}
-
 #us p{
-    font-size: 13px;
-    line-height: 1.7em;
+    color: rgba(255, 255, 255, 0.575);
 }
 
 
